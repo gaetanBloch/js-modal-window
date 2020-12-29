@@ -11,3 +11,8 @@ showModalButtons.forEach(button =>
     overlay.classList.remove('hidden');
   })
 );
+
+closeModalButton.addEventListener('click', () => {
+  modal.classList.add('hidden');
+  overlay.classList.add('hidden');
+});
